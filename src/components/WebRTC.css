@@ -1,0 +1,126 @@
+.liveclass-title{
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.liveclass-video{
+    display: flex;
+    justify-content: center;
+}
+
+.liveclass-actions{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.join-call {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    border: none;
+    background-color: #056f1c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .join-call:hover {
+    background-color: #0095ff; 
+  }
+  
+  .box-icon {
+    font-size: 24px;
+  }
+  
+  .search {
+    display: inline-block;
+    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  
+  .search input[type="text"] {
+    margin-top: 2px;
+    height: 44px;
+    width: 218px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2px;
+    right: 0;
+    height: 45px;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+  
+  .end-call{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    border: none;
+    background-color: #f90a0a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .end-call:hover {
+    color: rgb(35, 0, 0);
+  }
+
+  .video-icon{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    border: none;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: width 0.3s ease, height 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .audio-icon{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    border: none;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: width 0.3s ease, height 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
